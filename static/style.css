@@ -37,6 +37,18 @@ footer {
 
 /*导航栏*/
 nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	overflow: hidden;
+
+}
+nav li {
+	float: left;
+}
+
+/*.nav1 .ul1 {
 	position: relative;
 	list-style-type: none;
 	margin: 0;
@@ -44,10 +56,12 @@ nav ul {
 	overflow: hidden;
 	background-color: #333;
 }
-nav li {
+
+.nav1 li {
 	position: absolute;
 	left: 500px
 }
+*/
 nav li a {
 	display: block;
 	color: white;
@@ -75,6 +89,7 @@ nav li a:hover {
 }
 
 /*输入框*/
+
 input[type=submit] {
 	font-family: inherit;
 }
