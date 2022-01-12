@@ -48,20 +48,6 @@ nav li {
 	float: left;
 }
 
-/*.nav1 .ul1 {
-	position: relative;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-}
-
-.nav1 li {
-	position: absolute;
-	left: 500px
-}
-*/
 nav li a {
 	display: block;
 	color: white;
